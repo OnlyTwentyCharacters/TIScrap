@@ -1,0 +1,41 @@
+:0->H
+:0->T
+:ClrHome
+
+:Disp "FLIPS?
+:Prompt F
+
+:For(0,1,F
+:RandInt(0,1)->X
+
+:If X=0
+:Then
+:T+1->T
+:End
+
+:If X=1
+:Then
+:H+1->H
+:End
+
+:End
+
+:Disp "HEADS
+:Disp H
+
+:Disp "TAILS
+:Disp T
+
+:If H>T
+:Then
+:Disp "HEADS WON
+
+:Else
+
+:If T>H
+:Then
+:Disp "TAILS WON
+
+:Else
+
+:Disp "TIE
