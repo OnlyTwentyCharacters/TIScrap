@@ -1,0 +1,8 @@
+:0->Z
+
+:For(X,1,dim(L1
+:Z+abs(L1(X)-mean(L1))->Z
+:End
+
+:Z/dim(L1)->Z
+:Disp Z
