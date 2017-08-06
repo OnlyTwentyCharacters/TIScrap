@@ -1,0 +1,8 @@
+:Disp "STARTING VALUE
+:Input A
+:Disp "RATE OF CHANGE
+:Input B
+:Disp "WANT?
+:Input X
+
+:Disp A*B^X
