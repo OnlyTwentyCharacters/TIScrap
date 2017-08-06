@@ -1,0 +1,8 @@
+:Disp "FIRST AND SECOND VALS
+:Prompt A
+:Prompt B
+:(B/A)->R
+
+:Disp "NTH
+:Input N
+:Disp (A*R^(N-1))
